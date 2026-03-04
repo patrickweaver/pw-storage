@@ -1,0 +1,109 @@
+:root {
+    /* 
+    Colors
+  */
+
+    --bg-1: #ffffff;
+    --bg-2: #fff4bf;
+    --bg-3: #e0c438;
+    --bg-4: #fffbe8;
+    --text-1: #404040;
+    --text-2: #606060;
+    --text-3: #040404;
+    --text-link: #407fff;
+    --shadow-light: #fbfbfb;
+    --shadow-med: #e8e8e8;
+    --shadow: #afafaf;
+    --acc-1: #9ea6ff;
+    --acc-2: #9efff7;
+    --acc-3: #ffe79e;
+    --acc-4: #ff9ecf;
+    --acc-5: #a6ff9e;
+}
+
+@font-face {
+    font-family: 'CooperHewittOTF-Bold';
+    src: url('/fonts/CooperHewitt-OTF-public/CooperHewitt-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'CooperHewittOTF-Medium';
+    src: url('/fonts/CooperHewitt-OTF-public/CooperHewitt-Medium.otf') format('opentype');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0 1em;
+}
+
+body {
+    font-family: "Helvetica", Arial, sans-serif;
+    margin: 1em auto;
+    max-width: 800px;
+    background-color: var(--bg-1);
+    color: var(--text-1);
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--text-1);
+}
+
+h1 {
+    line-height: 3rem;
+    line-height: 3.6rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+    margin-block-start: 2rem;
+    margin-block-end: 0.5rem;
+}
+
+h5 {
+    font-size: 1.125rem;
+    margin-block-start: 2rem;
+    margin-block-end: 0.5rem;
+}
+
+h6 {
+    font-size: 1rem;
+    margin-block-start: 2rem;
+    margin-block-end: 0.5rem;
+}
+
+hgroup>* {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+hgroup>*:first-child {
+    margin-top: 1em;
+}
+
+hgroup>*:last-child {
+    margin-bottom: 1em;
+}
+
+a {
+    color: var(--text-link);
+}
